@@ -1,0 +1,36 @@
+2016-11-14 18:52:09,2 INFO  Start work...
+2016-11-14 18:52:09,2 INFO  Task 009CD41C is added in queue
+2016-11-14 18:52:09,2 INFO  Task 009CAC4E is added in queue
+2016-11-14 18:52:09,2 INFO  Task 009CD58E is added in queue
+2016-11-14 18:52:09,2 INFO  Task 009CADFC is added in queue
+2016-11-14 18:52:09,2 INFO  Task 009CD6AB is added in queue
+2016-11-14 18:52:09,7 INFO  Max thread limit overflow
+2016-11-14 18:52:09,7 INFO  Thread #5156 is added in pool
+2016-11-14 18:52:09,7 INFO  Task 009CD41C, start in thread #5156
+
+2016-11-14 18:52:09,2 INFO  Max thread limit overflow
+2016-11-14 18:52:09,2 INFO  Thread #11064 is added in pool
+2016-11-14 18:52:09,2 INFO  Task 009CAC4E, start in thread #11064
+
+2016-11-14 18:52:09,7 INFO  Max thread limit overflow
+2016-11-14 18:52:09,7 INFO  Thread #988 is added in pool
+2016-11-14 18:52:09,7 INFO  Task 009CD58E, start in thread #988
+
+2016-11-14 18:52:09,2 INFO  Max thread limit overflow
+2016-11-14 18:52:09,2 INFO  Thread #5716 is added in pool
+2016-11-14 18:52:09,2 INFO  Task 009CADFC, start in thread #5716
+
+2016-11-14 18:52:09,7 INFO  Max thread limit overflow
+2016-11-14 18:52:09,7 INFO  Thread #3260 is added in pool
+2016-11-14 18:52:09,7 INFO  Task 009CD6AB, start in thread #3260
+
+2016-11-14 18:52:09,7 INFO  Thread #3260 has ERROR. Thread is stopped.
+2016-11-14 18:52:10,1 INFO  Thread #5156, task 009CD41C is done! 
+2016-11-14 18:52:11,6 INFO  Task 009CD41C is added in queue
+2016-11-14 18:52:11,1 INFO  Task 009CD41C, start in thread #3260
+
+2016-11-14 18:52:11,6 INFO  Thread #11064, task 009CAC4E is done! 
+2016-11-14 18:52:12,5 INFO  Thread #3260, task 009CD41C is done! 
+2016-11-14 18:52:12,0 INFO  Thread #988, task 009CD58E is done! 
+2016-11-14 18:52:13,5 INFO  Thread #5716, task 009CADFC is done! 
+

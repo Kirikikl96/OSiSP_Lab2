@@ -1,0 +1,10 @@
+﻿  ThreadPool_Win32.cpp
+  ThreadPool.cpp
+c:\users\kirik\desktop\threadpool_win32\threadpool_win32\threadpool.cpp(7): warning C4005: min: изменение макроопределения
+  c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197): note: см. предыдущее определение "min"
+c:\users\kirik\desktop\threadpool_win32\threadpool_win32\threadpool.cpp(55): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\kirik\desktop\threadpool_win32\threadpool_win32\threadpool.cpp(196): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\kirik\desktop\threadpool_win32\threadpool_win32\threadpool.cpp(249): warning C4018: >: несоответствие типов со знаком и без знака
+  Создание кода...
+  ThreadPool_Win32.vcxproj -> C:\Users\Kirik\Desktop\ThreadPool_Win32\Debug\ThreadPool_Win32.exe
+  ThreadPool_Win32.vcxproj -> C:\Users\Kirik\Desktop\ThreadPool_Win32\Debug\ThreadPool_Win32.pdb (Full PDB)
