@@ -3,48 +3,52 @@
 #include <iostream>
 #include <windows.h>
 
-void Print(int i)
+void PrintResult(int i)
 {
-	printf("task %d start\n", i);
+	printf("Task %d start\n", i);
 	Sleep(i * 1000);
-	printf("task %d end\n", i);
-	// fflush(stdout);
+	printf("Task %d end\n", i);
 }
 
-DWORD func1()
+DWORD Task1()
 {
-	Print(1);
+	PrintResult(1);
 	return 0;
 }
 
-DWORD func2()
+DWORD Task2()
 {
-	Print(2);
+	PrintResult(2);
 	return 0;
 }
 
-DWORD func3()
+DWORD Task3()
 {
-	Print(3);
+	PrintResult(3);
 	return 0;
 }
 
-DWORD func4()
+DWORD Task4()
 {
-	Print(4);
+	PrintResult(4);
 	return 0;
 }
 
-DWORD func5()
+DWORD Task5()
 {
-	Print(5);
+	PrintResult(5);
 	return 0;
 }
 
-DWORD errorFunc()
+DWORD Task6()
 {
-	printf("Error task!\n");
-	throw exception();
+	PrintResult(6);
+	return 0;
+}
+
+DWORD Task7()
+{
+	PrintResult(7);
 	return 0;
 }
 
@@ -58,16 +62,14 @@ int main()
 
 	ThreadPool *pool = new ThreadPool(poolSize, maxPoolSize);
 
-	pool->AddTask(&func1);
-	pool->AddTask(&func2);
-	pool->AddTask(&func3);
-	pool->AddTask(&func4);
-	pool->AddTask(&func5);
-	//pool->AddTask(&errorFunc);
-
+	pool->AddTask(&Task1);
+	pool->AddTask(&Task2);
+	pool->AddTask(&Task3);
+	pool->AddTask(&Task4);
+	pool->AddTask(&Task5);
+	pool->AddTask(&Task6);
+	pool->AddTask(&Task7);
 	Sleep(2000);
-	//pool->AddTask(&func1);
-
 	::WaitForSingleObject(pool->hPoolThread, INFINITE);
 	return 0;
 }

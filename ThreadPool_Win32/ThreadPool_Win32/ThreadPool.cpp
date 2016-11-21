@@ -145,8 +145,7 @@ void ThreadPool::AddThreadInPool()
 		workerThreads.back().error = 0;
 		workerThreads.back().task = NULL;
 		workerThreads.back().flag = FLAG_INIT;
-		workerThreads.back().handle = ::CreateThread(NULL, 0,
-			ThreadWork, this, 0, &workerThreads.back().id);
+		workerThreads.back().handle = ::CreateThread(NULL, 0, ThreadWork, this, 0, &workerThreads.back().id);
 
 		if (workerThreads.back().handle != NULL)
 		{
